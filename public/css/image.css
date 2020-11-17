@@ -1,0 +1,12 @@
+.uploadedImgStyle {
+  width: 100%;
+}
+.pdfFrame {
+  width: 100%;
+}
+.input-img{
+  display: none;
+} 
+.input-pdf{
+  display: none;
+}
