@@ -471,8 +471,10 @@ function handleToolChange(tool) {
       tools[0].classList.remove("active");
       tools[1].classList.add("active");
       pencilOptions.classList.remove("show");
-      ctx.globalCompositeOperation = "destination-out";
+      ctx.strokeStyle = "white";
       ctx.lineWidth = inputs[0].value;
+      ctx.globalCompositeOperation = "source-over";
+      
 
       // remove other options
       // set yourself active

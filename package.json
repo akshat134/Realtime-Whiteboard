@@ -1,11 +1,14 @@
 {
-  "name": "pepBoard",
+  "name": "whiteboard",
   "version": "1.0.0",
   "description": "",
   "main": "express.js",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
@@ -15,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pep-DEV101/PepBoard.git"
+    "url": "git+https://github.com/akshat134/Realtime-Whiteboard"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pep-DEV101/PepBoard/issues"
+    "url": "https://github.com/akshat134/Realtime-Whiteboard/issues"
   },
-  "homepage": "https://github.com/Pep-DEV101/PepBoard#readme"
+  "homepage": "https://github.com/akshat134/Realtime-Whiteboard"
 }
